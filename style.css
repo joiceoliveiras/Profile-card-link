@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Radio Canada Big", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #190B28, #46629F) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header{
+    background:#1B263B;
+    padding: 60px 40px;
+
+}
+
+.photo{
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg,  #46629F,#190B28);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+
+    }
+
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left top;
+    }
+}
+
+.photo img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    color: #ffff;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.description{
+    font-size: 18px;
+    color: lightgrey;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.socials a {
+    color: #ffff;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+}
+
+.socials a:hover{
+    color: #190B28;
+}
+
+/* .contact{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #ffff;
+    border: 2px solid #1B263B;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+}
+
+.contact:hover{
+    background: #1B263B;
+    
+} */
