@@ -7,8 +7,11 @@ Visite o site: https://joiceoliveiras.github.io/Profile-card-link/#
 
 ## Sobre
 
-**Profile card** "Cartão" de perfil com links para redes sociais.
+**Profile card** "Cartão" de perfil com links para redes sociais. 
+
+Na atualização mais recente Adicionei javascript para remover um link especifico com uma data determinada de vencimento.
 
 # Tecnologias utilizadas
 - HTML
 - CSS
+- Javascript

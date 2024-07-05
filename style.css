@@ -4,19 +4,23 @@
     font-family: "Radio Canada Big", sans-serif;
     box-sizing: border-box;
     text-decoration: none;
+    overflow: auto;
 }
 
 body{
-    height: 100vh;
+  
     background: linear-gradient(to bottom, #190B28, #46629F) no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 .profile-card{
-    width: 400px;
+    margin-top: 15px;
+    width: 300px;
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
@@ -92,17 +96,28 @@ body{
     color: #190B28;
 }
 
-/* .links{
-    display: inline-block;
+h2{
+    color: #ffff;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
     padding: 12px 50px;
     color: #ffff;
     border: 2px solid #1B263B;
-    border-radius: 6px;
+    border-radius: 9px;
     margin-top: 16px;
     transition: .3s linear;
+    
 }
 
 .links:hover{
     background: #1B263B;
     
-} */
+}
+
+#hideLink{
+ display: none;   
+}
