@@ -29,7 +29,7 @@ body{
 .card-header{
     background:#1B263B;
     padding: 60px 40px;
-
+    border-radius: 8px;
 }
 
 .photo{
