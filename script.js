@@ -1,5 +1,5 @@
 function checkDate() {
-    const targetDate = new Date(2024, 6, 31); 
+    const targetDate = new Date(); 
 
     const currentDate = new Date();
 
